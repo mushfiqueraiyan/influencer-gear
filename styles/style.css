@@ -147,7 +147,7 @@ main{
 
 .products-item{
     margin-top: 100px;
-    margin-bottom: 50px;
+    
     color: #1f1e1e;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -191,11 +191,61 @@ main{
     color: #787885;
 }
 
+.see-more{
+    color: #e02c6d;
+    text-align: end;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    max-width: 1047px;
+    
+}
 
+/* feature container */
 
+.feature-container{
+    max-width: 1100px;
+    margin: 150px auto 20px;
+    display: flex;
+    gap: 80px;
+}
 
+.feature-content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.feature-content h2{
+    color: #0A0826;
+    font-size: 2.2rem;
+}
 
+.feature-content p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+    margin: 16px 0px;
+    padding-right: 100px;
+}
+
+.feature-image{
+    width: 40%;
+}
+
+.feature-image img{
+    width: 100%;
+}
+.primary-btn{
+    padding: 10px 24px;
+    border-radius: 41px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background-color: #e02c6d;
+    color: #fff;
+    cursor: pointer;
+}
 
 
 
@@ -345,7 +395,7 @@ main{
         gap: 30px;
         align-items: center;
         justify-content: center;
-        padding: 0px 50px;
+        padding: 0px 30px;
     }
     
     .product{
@@ -382,5 +432,63 @@ main{
         font-weight: 600;
         color: #787885;
     }
+    .see-more{
+        color: #e02c6d;
+        text-align: end;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        max-width: 1047px;
+        padding: 0px 50px;
+    }
     
+    /* feature container */
+
+.feature-container{
+    max-width: 1100px;
+    margin: 70px auto 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    
+}
+
+.feature-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.feature-content h2{
+    color: #0A0826;
+    font-size: 2.2rem;
+    margin-top: 0px;
+}
+
+.feature-content p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+    width: 100%;
+}
+
+.feature-image{
+    width: 100%;
+}
+
+.feature-image img{
+    width: 100%;
+}
+.primary-btn{
+    padding: 10px 24px;
+    border-radius: 41px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background-color: #e02c6d;
+    color: #fff;
+    cursor: pointer;
+}
 }
